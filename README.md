@@ -56,6 +56,11 @@ rebuilt and installed.
 
 ## Usage ##
 
+### Enable GPIOs: ###
+Enabling GPIOs is done in sortbootorder by toggling corresponding UARTs. Please refer to:
+
+* [Enabling GPIOs in sortbootorder](https://github.com/pcengines/sortbootorder/blob/master/README.md)
+
 ### Load the driver: ###
 `insmod gpio-nct5104d.ko`
 
