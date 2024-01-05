@@ -15,6 +15,9 @@
 #include <linux/io.h>
 #include <linux/gpio.h>
 #include <linux/version.h>
+#if LINUX_VERSION_CODE >= KERNEL_VERSION(6, 2, 0)
+#include <linux/gpio/driver.h>
+#endif
 
 #define DRVNAME "gpio-nct5104d"
 
